@@ -35,7 +35,8 @@
 
 
     <div class="container mt-5">
-        <form action="/analyze" method="post">{% csrf_token %}
+        <h1 class="text-center fs-1">TextUtils by Shivanshu Prajapati</h1>
+        <form class="mt-5" action="/analyze" method="post">{% csrf_token %}
             <div class="form-floating">
                 <textarea name="text" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
                     style="height: 300px"></textarea>
